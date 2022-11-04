@@ -2,7 +2,7 @@ body {
   font-family: 'Be Vietnam Pro', sans-serif;
 }
 .display-1 {
-  font-family: 'Be Vietnam Pro', sans-serif;
+  font-family: 'Electrolize', sans-serif;
   font-size: 5.3rem;
   line-height: 1.17;
 }
@@ -10,7 +10,7 @@ body {
   font-size: 6.625rem;
 }
 .display-2 {
-  font-family: 'Be Vietnam Pro', sans-serif;
+  font-family: 'Electrolize', sans-serif;
   font-size: 3.75rem;
   line-height: 1.31;
 }
@@ -519,17 +519,12 @@ a.text-black.active {
   color: #000000 !important;
 }
 a[class*="text-"]:not(.nav-link):not(.dropdown-item):not([role]):not(.navbar-caption) {
+  transition: 0.2s;
   position: relative;
-  background-image: transparent;
+  background-image: linear-gradient(currentColor 50%, currentColor 50%);
   background-size: 10000px 2px;
   background-repeat: no-repeat;
-  background-position: 0px 1.2em;
-  background-position: -10000px 1.2em;
-}
-a[class*="text-"]:not(.nav-link):not(.dropdown-item):not([role]):not(.navbar-caption):hover {
-  transition: background-position 2s ease-in-out;
-  background-image: linear-gradient(currentColor 50%, currentColor 50%);
-  background-position: 0px 1.2em;
+  background-position: 0 1.2em;
 }
 .nav-tabs .nav-link.active {
   color: #913bff;
@@ -582,9 +577,6 @@ a:hover {
   color: #fbd5d3;
 }
 /* Scroll to top button*/
-.scrollToTop_wraper {
-  display: none;
-}
 .form-control {
   font-family: 'Be Vietnam Pro', sans-serif;
   font-size: 1.5rem;
