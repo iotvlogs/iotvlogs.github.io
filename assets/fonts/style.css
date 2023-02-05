@@ -4,6 +4,11 @@
    src: url('Aileron-Bold/font.woff');
 }
 @font-face {
+   font-family: 'Aileron-Light';
+   font-display: swap;
+   src: url('Aileron-Light/font.woff');
+}
+@font-face {
    font-family: 'Aileron-Regular';
    font-display: swap;
    src: url('Aileron-Regular/font.woff');
